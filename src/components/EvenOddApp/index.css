@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.even-odd-app-contaier {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.even-odd-app-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  margin: 24px;
+  padding: 18px;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+}
+.heading {
+  color: #0f172a;
+  font-size: 36px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.desc {
+  color: #334155;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+.button {
+  color: #1e293b;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.desc-2 {
+  text-align: center;
+  color: #334155;
+  font-size: 14px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
